@@ -1,0 +1,17 @@
+MVC = struktur modelnya ada 3 yaitu model view controller
+controller menghubungkan front end dan back end nya 
+cara membuat mvc membutuhkan :
+1. koneksi menghubungkan basis data dengan coding 
+2. model digunakan untuk handling method yg berkaitan dengan koneksi (CRUD) 
+    - model dikoneksikan ke koneksi
+    - disarankan awalan huruf kapital
+3. controller
+    - controller di konekkan ke modelnya
+    - home controller : untuk memisahkan menu yang di buat
+4. Views
+    - views dikonekkan dengan controllernya
+    - config dipanggil di views
+
+BAGIAN MODELS
+getAll mahasiswa : bagian dr read (menampilkan)
+getmahasiswabyID : untuk edit
